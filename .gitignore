@@ -1,0 +1,3 @@
+/**/*.o
+libsupp/libsupp.a
+traceroute/traceroute
