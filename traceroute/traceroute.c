@@ -24,8 +24,11 @@
 #include <linux/types.h>
 #include <linux/errqueue.h>
 
+#ifdef __ANDROID__
+#else
 /*  XXX: Remove this when things will be defined properly in netinet/ ...  */
 #include "flowlabel.h"
+#endif
 
 #include <clif.h>
 #include "version.h"
